@@ -193,10 +193,6 @@ nav {
     gap: 2rem;
 }
 
-.team-member:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
 .member-image {
     flex-shrink: 0;
 }
