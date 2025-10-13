@@ -13,7 +13,7 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
                 <li><a href="events.html">Events</a></li>
                 <!-- <li><a href="videos.html">Videos</a></li>
                 <li><a href="more.html">More</a></li> -->
@@ -83,14 +83,15 @@
             lines.forEach(line => {
                 if (line.trim()) {
                     const parts = line.split('|');
-                    if (parts.length >= 6) {
+                    if (parts.length >= 7) {
                         events.push({
                             title: parts[0].trim(),
                             date: parts[1].trim(),
                             time: parts[2].trim(),
-                            description: parts[3].trim(),
-                            moreInfo: parts[4].trim(),
-                            image: parts[5] ? parts[5].trim() : null
+                            location: parts[3].trim(),
+                            description: parts[4].trim(),
+                            moreInfo: parts[5].trim(),
+                            image: parts[6] ? parts[6].trim() : null
                         });
                     }
                 }
@@ -164,11 +165,12 @@
                 </div>` : '';
             
             return `
-                <div class="${eventClass}" onclick="showEventPopup('${event.title.replace(/'/g, "\\'")}', '${formatDate(event.date)}', '${event.time}', '${event.description.replace(/'/g, "\\'")}', '${event.moreInfo.replace(/'/g, "\\'")}', '${event.image || ''}')">
+                <div class="${eventClass}" onclick="showEventPopup('${event.title.replace(/'/g, "\\'")}', '${formatDate(event.date)}', '${event.time}', '${event.location.replace(/'/g, "\\'")}', '${event.description.replace(/'/g, "\\'")}', '${event.moreInfo.replace(/'/g, "\\'")}', '${event.image || ''}')">
                     ${imageHTML}
                     <div class="event-date">
                         <span class="date-text">${formatDate(event.date)}</span>
                         <span class="time-text">${event.time}</span>
+                        <span class="location-text">${event.location}</span>
                         ${isPast ? '<span class="past-label">Past Event</span>' : '<span class="upcoming-label">Upcoming</span>'}
                     </div>
                     <div class="event-content">
@@ -181,7 +183,7 @@
         }
 
         // Function to show event popup
-        function showEventPopup(title, date, time, description, moreInfo, image) {
+        function showEventPopup(title, date, time, location, description, moreInfo, image) {
             const popup = document.getElementById('event-popup');
             const popupContent = document.getElementById('popup-content');
             
@@ -199,6 +201,7 @@
                 <div class="popup-details">
                     <p><strong>Date:</strong> ${date}</p>
                     <p><strong>Time:</strong> ${time}</p>
+                    <p><strong>Location:</strong> ${location}</p>
                     <p><strong>Description:</strong> ${description}</p>
                     <div class="more-info">
                         <h3>More Information:</h3>
