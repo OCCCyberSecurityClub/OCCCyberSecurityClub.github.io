@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events - OCC CIS Club</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -98,14 +99,23 @@
             });
             
             // Sort events by date
-            events.sort((a, b) => new Date(a.date) - new Date(b.date));
+            events.sort((a, b) => {
+                // Parse YYYY-MM-DD format directly for comparison
+                const [yearA, monthA, dayA] = a.date.split('-').map(Number);
+                const [yearB, monthB, dayB] = b.date.split('-').map(Number);
+                const dateA = new Date(yearA, monthA - 1, dayA);
+                const dateB = new Date(yearB, monthB - 1, dayB);
+                return dateA - dateB;
+            });
             
             return events;
         }
 
         // Function to format date for display
         function formatDate(dateString) {
-            const date = new Date(dateString);
+            // Parse YYYY-MM-DD format directly
+            const [year, month, day] = dateString.split('-').map(Number);
+            const date = new Date(year, month - 1, day);
             const options = { 
                 year: 'numeric', 
                 month: 'long', 
@@ -117,7 +127,9 @@
 
         // Function to check if event is upcoming
         function isUpcoming(dateString) {
-            const eventDate = new Date(dateString);
+            // Parse YYYY-MM-DD format directly
+            const [year, month, day] = dateString.split('-').map(Number);
+            const eventDate = new Date(year, month - 1, day);
             const today = new Date();
             today.setHours(0, 0, 0, 0);
             return eventDate >= today;
