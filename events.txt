@@ -1,0 +1,9 @@
+OCC CIS meeting|2025-10-08|6:00PM|AH campus, Room c122|This is our biweekly meeting|We worked on the OCC CIS website and advertisments for the club.|assets/cisclub.jpeg
+SAT Plating tour|2025-10-15|2:00PM|1837 Thunderbird St, Troy, MI 48084|A site tour for SAT Plating.|A site tour for SAT Plating, please email jlcaruso@oaklandcc.edu for more information and how to sign up.|assets/satplating.png
+OCC CIS meeting|2025-10-22|6:00PM|AH campus, Room c122|This is our biweekly meeting|We made our own ethernet cables for networking, and christopher missick brought in pentesting tools to explain how they work and talk about their applications.|assets/cisclub.jpeg
+Delta Technologies Tour|2025-11-04|10:00AM|1350 Harmon Rd, Auburn Hills, MI 48326|Site tour for Delta Technologies|Delta Technologies is having a site tour for up to 25 students. Please email jlcaruso@oaklandcc.edu for more information and how to sign up.|assets/deltatech.jpg
+OCC CIS meeting|2025-10-29|6:00PM|AH campus, Room c122|This is our biweekly meeting|We are planning on having some HTB challenges, and having a make your own ethernet cables workshop.|assets/cisclub.jpeg
+Apple Development Campus List|2025-11-06|2:00PM|RO campus, Lila Jones-Johnson Theater|Apple Development Visit|Apple is visting to show you local opportunities with Apple Retail and the Apple Developer Academy.|assets/apple.png
+OCC CIS meeting|2025-11-12|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
+OCC CIS meeting|2025-11-26|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
+OCC CIS meeting|2025-12-10|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
