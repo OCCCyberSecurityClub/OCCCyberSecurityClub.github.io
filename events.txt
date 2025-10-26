@@ -6,8 +6,4 @@ OCC CIS meeting|2025-10-29|6:00PM|AH campus, Room c122|This is our biweekly meet
 Apple Development Campus List|2025-11-06|2:00PM|RO campus, Lila Jones-Johnson Theater|Apple Development Visit|Apple is visting to show you local opportunities with Apple Retail and the Apple Developer Academy.|assets/apple.png
 OCC CIS meeting|2025-11-12|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
 OCC CIS meeting|2025-11-26|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
-<<<<<<< HEAD
 OCC CIS meeting|2025-12-10|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
-=======
-OCC CIS meeting|2025-12-10|6:00PM|AH campus, Room c122|This is our biweekly meeting|TBD|assets/cisclub.jpeg
->>>>>>> github/main

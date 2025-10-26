@@ -35,7 +35,6 @@ python3 -m http.server 8000
 
 Then open your browser and go to: `http://localhost:8000`
 
-<<<<<<< HEAD
 ## Development
 
 This project uses multiple Git remotes for collaboration:
@@ -51,8 +50,6 @@ git push origin main
 git push github main
 ```
 
-=======
->>>>>>> github/main
 ## Getting Involved
 
 - **Join Us**: Fill out our [membership form](https://docs.google.com/forms/d/e/1FAIpQLScD4r623zV8YlEpEle3273UvgumOwMFD9FD4lfxwmi6U6pc3A/viewform?usp=sf_link)
