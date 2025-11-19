@@ -1,4 +1,5 @@
-## To see the website, please visit https://occcybersecurityclub.github.io/
+#Deprecaded, this has been moved to [https://git.christophermissick.com/chris/OCC-Cyber-security-club-website](https://git.christophermissick.com/chris/OCC-Cyber-security-club-website)
+## To see the website, please visit [https://occcybersecurity.club/](https://occcybersecurity.club/)
 
 # OCC CIS Club Website
 
